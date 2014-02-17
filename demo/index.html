@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+
+<html lang="fr">
+
+    <head>
+
+        <title>multiSelect</title>
+
+        <link title="defaut" type="text/css" rel="stylesheet" href="css/reset.css" media="screen">
+        <link title="defaut" type="text/css" rel="stylesheet" href="css/style.css" media="screen">
+
+        <META CHARSET="UTF-8">
+        <META NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0">
+        <META NAME="KEYWORDS" CONTENT="">
+        <META NAME="DESCRIPTION" CONTENT="">
+        <META NAME="AUTHOR" CONTENT="BaBeuloula">
+        <META NAME="REVISIT-AFTER" CONTENT="7 DAYS">
+        <META NAME="ROBOTS" CONTENT="ALL">
+
+    </head>
+
+    <body>
+
+        <div id="test"></div>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.multiSelect.js"></script>
+        <script type="text/javascript">
+            $("#test").multiSelect({
+                title: "Catégories",
+                elements: [
+                    "PHP",
+                    "HTML",
+                    "CSS",
+                    "jQuery",
+                    "SQL",
+                    "Information",
+                    "JavaScript",
+                    "API",
+                    "Navigateur",
+                    "HTML5",
+                    "CSS3",
+                    "Serveur",
+                    "Java",
+                    "Android",
+                    "Framework",
+                    "iOS",
+                    "Projet",
+                    "Tutorial"
+                ]
+            });
+        </script>
+
+    </body>
+
+</html>
